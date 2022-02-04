@@ -658,7 +658,7 @@ section .container {
 .services .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
-  padding: 80px 20px;
+  padding: 20px 50px;
   transition: all ease-in-out 0.3s;
 }
 
@@ -713,6 +713,7 @@ section .container {
 .services .icon-box:hover {
   background: #18d26e;
   border-color: #18d26e;
+  /* width: 350px; */
 }
 
 .services .icon-box:hover .icon {
