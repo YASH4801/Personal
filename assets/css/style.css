@@ -612,6 +612,20 @@ section .container {
   position: relative;
 }
 
+.resume .resume-item .score {
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item .score:hover {
+  background-color: #18d26e;
+  color: #fff;
+}
+
 .resume .resume-item h4 {
   line-height: 18px;
   font-size: 18px;
@@ -629,6 +643,11 @@ section .container {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+.resume .resume-item h5:hover{
+  background-color: #18d26e;
+  color: #fff;
 }
 
 .resume .resume-item ul {
